@@ -1,0 +1,6 @@
+services:
+  lybrary-app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: lybrary-app
