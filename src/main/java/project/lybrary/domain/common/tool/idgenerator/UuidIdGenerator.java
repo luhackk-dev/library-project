@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import project.lybrary.domain.common.tool.idgenerator.contract.IdGenerator;
 
 @Service
-
 public class UuidIdGenerator implements IdGenerator {
     
     public String generate() {
